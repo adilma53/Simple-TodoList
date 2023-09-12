@@ -1,3 +1,22 @@
+
+import React from 'react';
+import AppContainer from './components/App/App';
+
+function App()
+{
+  return (
+    <div className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 min-h-screen flex items-center justify-center">
+      <AppContainer />
+    </div>
+  );
+}
+
+export default App;
+
+
+
+
+// -------------------------------------
 // import React, { useState } from 'react';
 
 // function Bin({ deletedTodos, handleRestore })
@@ -139,20 +158,5 @@
 // export default App;
 
 
-
-
-import React from 'react';
-import AppContainer from './components/App/App';
-
-function App()
-{
-  return (
-    <div className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 min-h-screen flex items-center justify-center">
-      <AppContainer />
-    </div>
-  );
-}
-
-export default App;
 
 
